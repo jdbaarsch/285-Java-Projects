@@ -1,0 +1,28 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ripples;
+
+import java.awt.Point;
+
+/**
+ *
+ * @author jbaarsch
+ */
+public class PondRipple {
+    Point p;
+    int size = 0;
+    public PondRipple(Point p)
+    {
+        this.p = p;
+    }
+    
+    public void grow(int factor)
+    {
+        size = size+factor;
+    }
+    
+    
+    
+}
