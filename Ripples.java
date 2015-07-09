@@ -18,7 +18,8 @@ public class Ripples {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Pond");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.getContentPane().add(new PondPanel());
+        // New comment to test GitHub
+	frame.getContentPane().add(new PondPanel());
         frame.pack();
         frame.setVisible(true);
     }
