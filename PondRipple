@@ -7,7 +7,7 @@ package ripples;
 import java.awt.Point;
 
 /**
- *
+ * I should have much more extended comments in this document
  * @author jbaarsch
  */
 public class PondRipple {
